@@ -73,7 +73,7 @@ void setup(){
   size(1000, 650);
   
   /* device setup */
-  haplyBoard          = new Board(this, Serial.list()[1], 0);
+  haplyBoard          = new Board(this, Serial.list()[0], 0);
   widgetOne           = new Device(widgetOneID, haplyBoard);
   pantograph          = new Pantograph();
   
